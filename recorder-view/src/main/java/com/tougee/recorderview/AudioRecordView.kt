@@ -47,8 +47,8 @@ class AudioRecordView : FrameLayout {
     private var isRecording = false
     private var upBeforeGrant = false
 
-    private val audioDrawable: Drawable by lazy { resources.getDrawable(R.drawable.ic_record_mic_black, null) }
-    private val videoDrawable: Drawable by lazy { resources.getDrawable(R.drawable.ic_record_mic_black, null) }
+    private val audioDrawable: Drawable by lazy { resources.getDrawable(R.drawable.ic_record_mic_white, null) }
+    private val videoDrawable: Drawable by lazy { resources.getDrawable(R.drawable.ic_record_mic_white, null) }
 
     constructor(context: Context) : this(context, null)
     constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0)
