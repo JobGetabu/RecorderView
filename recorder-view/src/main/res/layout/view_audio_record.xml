@@ -8,11 +8,11 @@
             android:id="@+id/record_ib"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/chat_control_height"
-            android:background="@null"
+            android:background="@drawable/recv_bg_mic"
             android:layout_gravity="end|bottom"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:src="@drawable/ic_record_mic_black"
+            android:src="@drawable/ic_record_mic_white"
             tools:ignore="ContentDescription"/>
 
     <com.tougee.recorderview.SlidePanelView
