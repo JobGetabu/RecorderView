@@ -54,7 +54,7 @@ allprojects {
 Add the dependency:
 ```Gradle
 dependencies {
-    compile 'com.github.tougee:audiorecordview:1.0.0'
+    implementation 'com.github.JobGetabu:RecorderView:v2.0.3'
 }
 ```
 
